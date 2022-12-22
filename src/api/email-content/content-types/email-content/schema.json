@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_contents",
+  "info": {
+    "singularName": "email-content",
+    "pluralName": "email-contents",
+    "displayName": "Email Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "initial_email": {
+      "type": "richtext"
+    },
+    "followup_email": {
+      "type": "richtext"
+    }
+  }
+}

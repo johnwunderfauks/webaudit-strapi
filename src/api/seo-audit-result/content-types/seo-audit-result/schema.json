@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seo_audit_results",
+  "info": {
+    "singularName": "seo-audit-result",
+    "pluralName": "seo-audit-results",
+    "displayName": "SEO Audit Result",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date_created": {
+      "type": "datetime",
+      "required": true
+    },
+    "site_url": {
+      "type": "richtext",
+      "required": true
+    },
+    "seo_result": {
+      "type": "richtext"
+    },
+    "initial_email": {
+      "type": "boolean",
+      "default": false
+    },
+    "followup_email": {
+      "type": "boolean",
+      "default": false
+    },
+    "site_email": {
+      "type": "email",
+      "required": true
+    },
+    "pdf_result": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
