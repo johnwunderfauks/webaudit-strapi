@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_headers",
+  "info": {
+    "displayName": "header"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "while"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

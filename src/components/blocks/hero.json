@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "chalkboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.header"
+    },
+    "text": {
+      "type": "string"
+    },
+    "buttons": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.buttons"
+    }
+  }
+}
